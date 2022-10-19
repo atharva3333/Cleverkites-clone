@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Cleverkites</title>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <header>
+
+            <nav class="relative px-4 py-4 flex justify-between items-center bg-white">
+                <a class="text-3xl font-bold leading-none" href="#">
+                    <img src="Images/logo.png" width="60px" height="60px">
+                </a>
+                <div class="lg:hidden">
+                    <button class="navbar-burger flex items-center text-blue-600 p-3">
+                        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Mobile menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <ul
+                    class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+                    <li><a class=" text-sky-900 hover:text-red-500 hover:underline" href="#">Our Work</a></li>
+
+
+
+                    <li><a class=" text-sky-900 hover:text-red-500 hover:underline" href="#">Services</a></li>
+
+                    <li><a class=" text-sky-900 hover:text-red-500 hover:underline" href="#">About</a></li>
+                    <li><a class=" text-sky-900 hover:text-red-500 hover:underline" href="#">Blog</a></li>
+
+                    <li><a class="text-sm text-sky-900 hover:text-red-500 hover:underline" href="#">Contact</a></li>
+                </ul>
+                <!-- <div class="flex">
+                    <img class="ml-4 hidden lg:inline-block lg:ml-auto" src="https://img.icons8.com/ios-glyphs/26/000000/facebook-f.png"/>
+                    <img class="ml-4 hidden lg:inline-block lg:ml-auto" src="https://img.icons8.com/ios-glyphs/26/000000/twitter--v1.png"/>
+                    <img class="ml-4 hidden lg:inline-block lg:ml-auto" src="https://img.icons8.com/material-outlined/26/000000/instagram-new--v1.png"/>
+                    <img class="ml-4 hidden lg:inline-block lg:ml-auto" src="https://img.icons8.com/windows/26/000000/behance.png"/>
+                </div> -->
+
+                <!-- <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200"
+                    href="#">Sign up</a> -->
+            </nav>
+            <div class="navbar-menu relative z-50 hidden">
+                <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+                <nav
+                    class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+                    <div class="flex items-center mb-8">
+                        <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                            <img src="Images/logo.png" width="60px" height="60px">
+                        </a>
+                        <button class="navbar-close">
+                            <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">Our Work</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">Services</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">About</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">Blog</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                                    href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-auto">
+                        <div class="pt-6">
+                            <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl"
+                                href="#">Sign in</a>
+                            <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl"
+                                href="#">Sign Up</a>
+                        </div>
+                        <p class="my-4 text-xs text-center text-gray-400">
+                            <span>Copyright © 2022</span>
+                        </p>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero-content mx-auto ml-auto">
+
+            <div class="flex">
+                <div class="basis-1/2">
+                    <h1>TRANSFORMING
+                        THROUGH DESIGN</h1>
+                    <p>Cleverkites is a full-service digital and web agency in India working with forward-thinking
+                        humans and organizations around the globe and offering them top-tier design, custom development,
+                        and result oriented digital marketing.</p>
+                    <button>Our Capabilities</button>
+                </div>
+                <div class="basis-1/2"><img src="Images/hero-img.png"></div>
+            </div>
+        </div>
+
+        <div class="featured">
+            <h2 class="font-gothic">featured</h2>
+            <h2 class="font-gothic">Work</h2>
+
+            <div class="flex flex-column items-end">
+                <div class="basis-1/2 mr-4 text-center">
+                    <img class="drop-shadow-xl" src="Images/heera.jpg">
+                    <h3 class="mt-4">Heera</h3>
+                    <p class="mt-4">Branding</p>
+                </div>
+                <div class="basis-1/2 ml-4 text-center"><img class="drop-shadow-xl" src="Images/dunhill.jpg">
+                    <h3 class="mt-4">Dunhill</h3>
+                    <p class="mt-4">Branding</p>
+                </div>
+            </div>
+
+            <div class="flex flex-column mt-10 text-center">
+                <div class="basis-1/2 mr-4"><img class="drop-shadow-xl" src="Images/burpy.jpg">
+                    <h3 class="mt-4">Burpy</h3>
+                    <p class="mt-4">Mobile App</p>
+                </div>
+                <div class="basis-1/2 ml-4"><img class="drop-shadow-xl" src="Images/dubai.jpg">
+                    <h3 class="mt-4">Dubai Wedding Team</h3>
+                    <p class="mt-4">Branding</p>
+                </div>
+            </div>
+
+            <div class="flex flex-column mt-10 text-center">
+                <div class="basis-1/2 mr-4"><img class="drop-shadow-xl" src="Images/deja brew.jpg">
+                    <h3 class="mt-4">Deja Brew</h3>
+                    <p class="mt-4">Branding</p>
+                </div>
+                <div class="basis-1/2 ml-4"><img class="drop-shadow-xl" src="Images/glitzahm.jpg">
+                    <h3 class="mt-4">Glitzahm</h3>
+                    <p class="mt-4">Branding</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="capabilities-container">
+            <h2 class="font-gothic mt-20">OUR CAPABILITIES</h2>
+            <p>Cleverkites is a digital agency poised with the responsibility of providing specific and integration
+                services through an exceptional on-site and off-site software. At Cleverkites, we also provide long term
+                I.T services to our clients. The Web Development and Digital Services we offer our esteemed clients all
+                over the world are second to none. Our experts have the ability to help you gain topmost position on the
+                Internet, especially ranking on Google first page.</p>
+
+            <div class="capabilities flex flex-wrap justify-between mt-14 mb-14">
+                <div>
+                    <h3 class="font-gothic">INNOVATION & DESIGN</h3>
+                    <ul class="mt-14">
+                        <li>Branding / Identity Design</li>
+                        <li>Web and App Design</li>
+                        <li>UX / UI Design</li>
+                        <li>Graphics & Illustration</li>
+                    </ul>
+                    <button class="explore mt-14">Explore All</button>
+                </div>
+                <div>
+                    <h3 class="font-gothic">DEVELOPMENT & PRODUCTION</h3>
+                    <ul class="mt-14 justify-start">
+                        <li>Web and App Development</li>
+                        <li>Custom Development Solutions</li>
+                        <li>WordPress Development</li>
+                        <li>Development Consultation</li>
+                    </ul>
+                    <button class="explore mt-14">Explore All</button>
+                </div>
+                <div>
+                    <h3 class="font-gothic">MARKETING & COMMUNICATION</h3>
+                    <ul class="mt-14">
+                        <li>Digital Marketing</li>
+                        <li>SEO / SMO</li>
+                        <li>AD Consultation & Management</li>
+                        <li>Campaign</li>
+                    </ul>
+                    <button class="explore mt-14">Explore All</button>
+                </div>
+
+                <p class="margin-for-p mb-3">Brilliant ideas are achieved only when there are knowledge and sound strategy to manage the world’s
+                    ever-changing environment. Gone are the days when ideas were created for ‘Channels’, it’s now
+                    replaced by a landscape of virtually millions of Intersections where users can interface with media
+                    and technology.</p>
+
+                <p>At Cleverkites, our belief is that these Intersections form the basis of where brands connect with
+                    their consumers and the focus on application of efforts is determined to make businesses more
+                    successful. To achieve this, we have enhanced our capabilities/services to give our clients the best
+                    of digital services they deserve.</p>
+
+            </div>
+        </div>
+
+        <div class="clients mb-14">
+            <h2 class="font-gothic mt-20 text-center">CLIENTS & PARTNERSHIPS</h2>
+            <div class="flex flex-wrap justify-between mt-14">
+                <img src="Images/burpylogo.svg"/>
+                <img src="Images/centerac-logo.svg"/>
+                
+                <img src="Images/dtd-logo.svg"/>
+                <img src="Images/dubailogo.svg"/>
+                <img src="Images/jura-logo.svg"/>
+                <img src="Images/readycart-logo.svg"/>
+                <img src="Images/s-b-logo.svg"/>
+                <img src="Images/zivek-logo.svg"/>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // Burger menus
+        document.addEventListener('DOMContentLoaded', function () {
+            // open
+            const burger = document.querySelectorAll('.navbar-burger');
+            const menu = document.querySelectorAll('.navbar-menu');
+
+            if (burger.length && menu.length) {
+                for (var i = 0; i < burger.length; i++) {
+                    burger[i].addEventListener('click', function () {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden');
+                        }
+                    });
+                }
+            }
+
+            // close
+            const close = document.querySelectorAll('.navbar-close');
+            const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+            if (close.length) {
+                for (var i = 0; i < close.length; i++) {
+                    close[i].addEventListener('click', function () {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden');
+                        }
+                    });
+                }
+            }
+
+            if (backdrop.length) {
+                for (var i = 0; i < backdrop.length; i++) {
+                    backdrop[i].addEventListener('click', function () {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden');
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
